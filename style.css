@@ -1,6 +1,13 @@
 body{
     background-image: url("https://static01.nyt.com/images/2020/10/08/pageoneplus/08insider-magcover/08insider-magcover-mobileMasterAt3x.jpg");
-    background-size: cover;
+    background-position: inherit;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        background-image: url("https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2FwFeivFy63lC0G_FHmuRdMA%252FHirst-close-up.jpg&width=1200&quality=80");
+        background-position: inherit;
+    }
 }
 
 .jumbotron{
@@ -9,6 +16,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .jumbotron{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 header {
@@ -25,7 +39,13 @@ header {
     font: 30px;
     font-weight: bold;
     opacity: 0.9;
-
+}
+@media only screen and (max-width: 1000px) {
+    .card{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .card-header{
