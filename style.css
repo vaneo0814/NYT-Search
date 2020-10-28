@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://static01.nyt.com/images/2020/10/08/pageoneplus/08insider-magcover/08insider-magcover-mobileMasterAt3x.jpg");
+    background-size: cover;
+}
+
+.jumbotron{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+header {
+    color: black;
+    font-family: 'Grenze Gotisch', cursive;
+    text-align: center;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 10px;
+    font: 30px;
+    font-weight: bold;
+    opacity: 0.9;
+
+}
+
+.card-header{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Cormorant Garamond', serif
+}
+
+hr {
+    border: 1px solid black;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#search, #clear {
+    background-color:  rgb(46, 46, 46);
+}
+
+#search:hover {
+    background-color: rgb(19, 19, 77);
+}
+
+#clear:hover {
+    background-color: rgb(19, 19, 77);
+}
